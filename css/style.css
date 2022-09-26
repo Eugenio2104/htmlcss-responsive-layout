@@ -7,6 +7,7 @@
 .container{
   width: 80%;
   max-width: 480px;
+  margin: 0 auto;
 }
 
 img{
@@ -28,6 +29,7 @@ button{
   color: #FFF;
   height: 50px;
   padding: 1em;
+  margin-bottom: 20px;
 }
 
 .menu {
@@ -91,16 +93,25 @@ section{
 
 .store .card{
   background-color: #B5DDFF;
-  padding: 20px 20px;
-  margin-bottom: 50px;
+  padding: 0px 20px;
+  margin-bottom: 30px;
   border-radius: 10px;
+  justify-content: flex-start;
 }
 
 .store img{
   display: block;
+  padding: 0;
 }
 
+h3, p{
+  text-align: start;
+  margin-bottom: 5px;
+} 
 
+button .btn-store{
+
+}
 
 
 @media (max-width: 780px) {
