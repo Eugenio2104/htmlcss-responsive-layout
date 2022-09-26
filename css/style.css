@@ -81,10 +81,6 @@ button{
 }
 
 /*main*/
-section{
-  padding;
-}
-
 .store .row{
   display: flex;
   flex-direction: column;
@@ -109,12 +105,18 @@ h3, p{
   margin-bottom: 5px;
 } 
 
-button .btn-store{
-
-}
 
 
-@media (max-width: 780px) {
+
+
+
+
+
+
+
+
+/*media header*/
+@media screen and (max-width: 1200px) {
   .menu-button-container {
     display: flex;
   }
@@ -150,5 +152,29 @@ button .btn-store{
   }
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
+  }
+}
+
+@media screen and (min-width:780px) {
+  .store .row {
+    display:flex;
+    flex-direction: row;
+  }
+
+  .card-big {
+    width: 70%;
+  }
+
+  .card-little1{
+    width: 30%;
+  }
+
+
+  .card-little2{
+   width: calc(100% / 3);
+  }
+
+  .card{
+    justify-content: space-between;
   }
 }
