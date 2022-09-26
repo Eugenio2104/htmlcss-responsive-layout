@@ -5,8 +5,7 @@
 }
 
 .container{
-  width: 80%;
-  max-width: 480px;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -169,12 +168,8 @@ h3, p{
     width: 30%;
   }
 
-
   .card-little2{
    width: calc(100% / 3);
   }
 
-  .card{
-    justify-content: space-between;
-  }
 }
