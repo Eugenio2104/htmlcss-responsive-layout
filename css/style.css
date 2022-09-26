@@ -4,14 +4,13 @@
   box-sizing: border-box;
 }
 
-h2 {
-  vertical-align: center;
-  text-align: center;
+.container{
+  width: 80%;
+  max-width: 480px;
 }
 
-html, body {
-  margin: 0;
-  height: 100%;
+img{
+  max-width: 100%;
 }
 
 button{
@@ -78,6 +77,31 @@ button{
   content: '';
   margin-top: 8px;
 }
+
+/*main*/
+section{
+  padding;
+}
+
+.store .row{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.store .card{
+  background-color: #B5DDFF;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
+.store img{
+  display: block;
+}
+
+
+
 
 @media (max-width: 780px) {
   .menu-button-container {
